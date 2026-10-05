@@ -2,11 +2,11 @@ from pathlib import Path
 import pandas as pd
 
 # Ajusta estos nombres a los del CSV
-COL_ID = "id"
-COL_FECHA = "timestamp"
-COL_SENSOR = "sensor_id"
+COL_ID = "id_registro"
+COL_FECHA = "fecha_hora"
+COL_SENSOR = "id_sensor"
 COL_PLANTA = "planta"
-COL_TEMP = "temperatura"
+COL_TEMP = "temperatura_c"
 UMBRAL = 85
 
 base = Path(__file__).parent
